@@ -1,0 +1,21 @@
+# Ignorar diretórios de dependências
+node_modules
+vendor
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar diretórios de dados do Docker
+data
+
+# Ignorar diretórios de controle de versão
+.git
+.gitignore
+
+# Ignorar arquivos temporários
+*.tmp
+*.swp
+
+# Ignorar arquivos de build
+dist
+build
