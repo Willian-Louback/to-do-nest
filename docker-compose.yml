@@ -1,6 +1,6 @@
 # https://medium.com/workleap/the-only-local-mongodb-replica-set-with-docker-compose-guide-youll-ever-need-2f0b74dd8384
 
-version: '3.8'
+version: '3'
 
 services:
   app:
@@ -29,10 +29,7 @@ services:
       start_period: 0s
       start_interval: 1s
       retries: 30
-    volumes:
-      - "mongo1_data:/data/db"
-      - "mongo1_config:/data/configdb"
 
-volumes:
-  mongo1_data:
-  mongo1_config:
+
+
+
